@@ -1,0 +1,112 @@
+.header_down-img_hospital {
+  position: absolute;
+  top: -119px;
+  right: -200px;
+}
+
+.header_down_hospital {
+  margin-top: 150px;
+}
+
+.header_down-text-hospital {
+  max-width: 888px;
+}
+
+.header_down-text_column_hospital {
+  max-width: 553px;
+}
+
+.swiper4 {
+  margin-top: 164px;
+}
+
+.swiper4-slide_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 80px;
+}
+
+.swiper4_item-img {
+  position: relative;
+}
+.swiper4_item-img img {
+  width: 910px;
+  height: auto;
+}
+.swiper4_item-img:after {
+  content: url("../img/paper_2.png");
+  z-index: -5;
+  position: absolute;
+  bottom: 50px;
+  right: -120px;
+}
+.swiper4_item-img:before {
+  content: url("../img/paper_1.png");
+  z-index: -5;
+  position: absolute;
+  top: -104px;
+  left: -93px;
+}
+
+.main_btn {
+  text-align: center;
+}
+.main_btn a {
+  background: #8AD2F5;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height, or 115% */
+  text-align: center;
+  padding: 18px 236px;
+  color: #1F1F1F;
+  transition: 0.3s;
+}
+.main_btn a:hover {
+  background: #38a0d4;
+  transition: 0.3s;
+}
+
+.rocket {
+  margin-bottom: 100px;
+}
+.rocket_items {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 100%;
+}
+.rocket_item {
+  max-height: 388px;
+  flex-basis: 33.333%;
+  background: radial-gradient(79.6% 85.23% at 22.68% 20.4%, rgba(231, 231, 231, 0.2) 0%, rgba(255, 255, 255, 0) 100%), rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(138, 174, 245, 0.3);
+  box-sizing: border-box;
+  -webkit-backdrop-filter: blur(46px);
+  backdrop-filter: blur(46px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 20px;
+  margin-right: 30px;
+  padding-top: 39px;
+  padding-bottom: 93px;
+}
+.rocket_item:last-child {
+  margin-right: 0;
+  padding-bottom: 60px;
+}
+.rocket_item-img {
+  text-align: center;
+}
+.rocket_item_title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 110%;
+  /* identical to box height, or 33px */
+  margin: 0 auto;
+  text-align: center;
+  color: #1F1F1F;
+}
+.rocket_item_title:last-child {
+  max-width: 285px;
+}

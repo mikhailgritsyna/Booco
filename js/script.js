@@ -1,0 +1,7 @@
+// new Swiper('.swiper',{
+//    navigation: {
+      
+     
+      
+//    }
+// });

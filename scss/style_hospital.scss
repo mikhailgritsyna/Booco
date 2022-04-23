@@ -1,0 +1,137 @@
+.header_down-img_hospital{
+
+   position: absolute;
+   top: -119px;
+   right: -200px;
+}
+.header_down_hospital{
+   margin-top: 150px;
+}
+.header_down-text-hospital{
+   max-width: 888px;
+}
+.header_down-text_column_hospital{
+   max-width: 553px;
+}
+
+
+// swiper 4 start 
+.swiper4{
+   margin-top: 164px;
+}
+.swiper4-slide {
+
+   &_item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-right: 80px;
+     
+      
+   }
+}
+.swiper4_item-img{
+   position: relative;
+   img{
+      width: 910px;
+      height: auto;
+   }
+   &:after {
+      content: url('../img/paper_2.png');
+      z-index: -5;
+      position: absolute;
+      bottom: 50px;
+      right: -120px;
+   }
+   &:before {
+      content: url('../img/paper_1.png');
+      z-index: -5;
+      position: absolute;
+         top: -104px;
+         left: -93px;
+   }
+}
+// swiper 4 end
+.main {
+  
+   &_btn {
+      text-align: center;
+      
+      a{
+         background: #8AD2F5;
+         border-radius: 20px;
+         font-weight: 400;
+         font-size: 20px;
+         line-height: 23px;
+         /* identical to box height, or 115% */
+         
+         text-align: center;
+         padding: 18px 236px;
+         color: #1F1F1F;
+         transition: 0.3s;
+         &:hover{
+            background: #38a0d4;
+            transition: 0.3s;
+         }
+      }
+   }
+
+}
+
+// roclet start 
+
+.rocket {
+   margin-bottom: 100px; 
+   &_items {
+      display: flex;
+      justify-content: space-between;
+    
+      flex-basis: 100%;
+   }
+
+   &_item {
+      max-height: 388px;
+      flex-basis: 33.333%;
+      background: radial-gradient(79.6% 85.23% at 22.68% 20.4%, rgba(231, 231, 231, 0.2) 0%, rgba(255, 255, 255, 0) 100%)
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+      ,
+      rgba(255, 255, 255, 0.2);
+      border: 2px solid rgba(138, 174, 245, 0.3);
+      box-sizing: border-box;
+      -webkit-backdrop-filter: blur(46px);
+              backdrop-filter: blur(46px);
+      /* Note: backdrop-filter has minimal browser support */
+     
+      border-radius: 20px;
+      margin-right: 30px;
+     padding-top: 39px;
+     padding-bottom: 93px;
+      &:last-child{
+         margin-right: 0;
+         padding-bottom: 60px;
+      }
+     
+   }
+
+   &_item-img {
+      text-align: center;
+   }
+
+   &_item_title {
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 110%;
+      /* identical to box height, or 33px */
+      margin: 0 auto;
+      text-align: center;
+      
+      color: #1F1F1F;
+      &:last-child{
+         max-width: 285px;
+      }
+   }
+}
+
+.wrapper {}
+
+// rocket end

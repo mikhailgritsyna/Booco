@@ -1,0 +1,15 @@
+.header_down-text_column_office span:first-child {
+  background: radial-gradient(79.6% 85.23% at 22.68% 20.4%, rgba(231, 231, 231, 0.2) 0%, rgba(255, 255, 255, 0) 100%), rgba(255, 255, 255, 0.15);
+  border: 2px solid rgba(138, 174, 245, 0.3);
+  box-sizing: border-box;
+  -webkit-backdrop-filter: blur(46px);
+  backdrop-filter: blur(46px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+  padding: 34px 25px;
+  color: #1F1F1F;
+}
